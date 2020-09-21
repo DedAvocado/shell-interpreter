@@ -9,7 +9,6 @@ int lsh_help(char **args)
 {
   int i;
   printf("Shell-Interpreter\n");
-  printf("Type program names and arguments, and hit enter.\n");
   printf("The following are built in:\n");
 
   for (i = 0; i < lsh_num_builtins(); i++) {

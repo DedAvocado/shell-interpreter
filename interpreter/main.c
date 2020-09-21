@@ -9,6 +9,7 @@ int lsh_launch(char **args);
 int lsh_cd(char **args);
 int lsh_help(char **args);
 int lsh_exit(char **args);
+int lsh_about(char **args);
 
 #define LSH_TOK_BUFSIZE 64
 #define LSH_TOK_DELIM " \t\r\n\a"
@@ -56,12 +57,14 @@ char *lsh_read_line(void)
 
 char *builtin_str[] = {
   "cd",
+  "about",
   "help",
   "exit"
 };
 
 int (*builtin_func[]) (char **) = {
   &lsh_cd,
+  &lsh_about,
   &lsh_help,
   &lsh_exit
 };
@@ -94,7 +97,6 @@ void lsh_loop(void)
   int status;
   char s[100];
   do {    
-    chdir(".."); 
     printf("%s", getcwd(s, 100));
     printf("> ");
     line = lsh_read_line();
