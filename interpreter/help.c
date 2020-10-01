@@ -9,7 +9,7 @@ int lsh_help(char **args)
 {
   int i;
   printf("Shell-Interpreter\n");
-  printf("The following are built in:\n");
+  printf("The following functions are available:\n");
 
   for (i = 0; i < lsh_num_builtins(); i++) {
     printf("  %s\n", builtin_str[i]);
