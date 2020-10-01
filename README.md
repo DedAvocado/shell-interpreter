@@ -1,6 +1,7 @@
 # Shell Interpreter
 
 A Shell Interpreter written in C
+[Incomplete code]
 # Prerequisities
 ```sudo apt install make gcc```
 # Steps to Compile and Run
