@@ -9,5 +9,9 @@ int lsh_about(char **args)
     printf("_\\ \\ | | |  __/ | |\n");
     printf("\\__/_| |_|\\___|_|_|\n");
 
+printf("____      ____ \n");         
+printf("[__  |__| |___ |    | \n");   
+printf("___] |  | |___ |___ |___ \n");
+
     return 1;
 }
