@@ -14,3 +14,6 @@ This project is a Shell Interpreter written in C language.
 2. ```cd shell-interpreter```
 3. ```make```
 4. ```./bin/interpreter```
+
+# Fun fact about shell interpreter
+The C shell, csh, was modeled on the C programming language, including the control structures and the expression grammar. It was written by Bill Joy as a graduate student at University of California, Berkeley, and was widely distributed with BSD Unix.
