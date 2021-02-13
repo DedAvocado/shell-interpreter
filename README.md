@@ -6,7 +6,6 @@ The shell allows you to enter commands that you would like to run, and also allo
 This project is a Shell Interpreter written in C language.
 [Code in progress]
 
-
 # Prerequisities
 ```sudo apt install make gcc```
 # Steps to Compile and Run
